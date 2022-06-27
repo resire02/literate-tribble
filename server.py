@@ -26,7 +26,7 @@ def submit_form():
         except Exception:
             return '500 Internal Server Error'
     else:
-        return 'nooo'
+        return 'Unknown Error'
     
 
 def write_to_csv(data):
